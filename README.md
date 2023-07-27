@@ -10,15 +10,15 @@
 2. 確認是否安裝composer
 3. 複製這個專案到本地機器
 4. 安裝所需的依賴項執行 
-   - 指令 `composer install`
+- 指令 `composer install`
 5. 自動加載
-   - 指令 `composer dump-autoload`
+- 指令 `composer dump-autoload`
 6. 緩存清除
-   - 指令 `php artisan cache:clear`
-   - 指令 `php artisan config:clear`
-   - 指令 `php artisan route:clear`
+- 指令 `php artisan cache:clear`
+- 指令 `php artisan config:clear`
+- 指令 `php artisan route:clear`
 7. 啟動專案
-   - 指令 `php artisan serve`
+- 指令 `php artisan serve`
 
 
 ## 單元測試

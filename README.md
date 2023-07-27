@@ -7,8 +7,8 @@
 
 ## 安裝、配置、啟動
 1. 確認 PHP 版本是 PHP 8.1.0 或更高版本，因為本專案使用 Laravel 10 的框架
-2. 確認是否安裝 Composer
-3. 複製這個專案到本地機器
+2. 確認是否安裝 Composer,因為安裝依賴項需要用到
+3. 複製這個專案到本地機器,並在該專案底下執行指令
 4. 安裝所需的依賴項執行 
 - 指令 `composer install`
 5. 自動加載
@@ -17,7 +17,11 @@
 - 指令 `php artisan cache:clear`
 - 指令 `php artisan config:clear`
 - 指令 `php artisan route:clear`
-7. 啟動專案
+7. 配置.env檔案
+- 指令 `cp .env.example .env`
+8. 設定專案的key
+- 指令 `php artisan key:generate`
+9. 啟動專案
 - 指令 `php artisan serve`
 
 

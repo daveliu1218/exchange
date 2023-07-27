@@ -21,4 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/test', [ExchangeController::class, 'index']);
-Route::get('/do', [ExchangeController::class, 'currency_exchange']);
+Route::get('/doExchange', [ExchangeController::class, 'currency_exchange']);

@@ -10,22 +10,22 @@
 2. 確認是否安裝composer
 3. 複製這個專案到本地機器
 4. 安裝所需的依賴項執行 
-   指令 `composer install`
+   - 指令 `composer install`
 5. 自動加載
-   指令 `composer dump-autoload`
+   - 指令 `composer dump-autoload`
 6. 緩存清除
-   指令 `php artisan cache:clear`
-   指令 `php artisan config:clear`
-   指令 `php artisan route:clear`
+   - 指令 `php artisan cache:clear`
+   - 指令 `php artisan config:clear`
+   - 指令 `php artisan route:clear`
 7. 啟動專案
-   指令 `php artisan serve`
+   - 指令 `php artisan serve`
 
 
 ## 單元測試
-指令 `php artisan test --filter ExchangeTest`
 - 單獨跑exchange的單元測試
-指令 `php artisan test` 
+-- 指令 `php artisan test --filter ExchangeTest`
 - 全部的單元測試
+-- 指令 `php artisan test` 
 
 ## 使用範例
 以下是一個使用範例：
@@ -34,12 +34,12 @@
 ## 代碼結構說明
 1. 新增檔案
 - 匯率轉換API實作的地方
-  app\Http\Controllers\api\ExchangeController.php
+-- app\Http\Controllers\api\ExchangeController.php
 - Json檔案讀取的地方
-  config\rate.json
+-- config\rate.json
 - UnitTest實作的地方
-  tests\Unit\ExchangeTest.php
+-- tests\Unit\ExchangeTest.php
 
 2. 修改檔案
 - API路由
-  routes\api.php
+-- routes\api.php
